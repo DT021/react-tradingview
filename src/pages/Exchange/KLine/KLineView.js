@@ -1,5 +1,4 @@
 import React from 'react';
-import { Icon } from 'antd';
 
 import './KLineView.css';
 
@@ -55,36 +54,8 @@ export default class extends React.Component {
   }
 
   render() {
-    const [price, change, high, low, vol] = this.props.latest;
     return (
       <div styleName="container">
-        <div styleName="header">
-          <Icon type="down" />
-          <dl>
-            <dt>
-              {this.props.symbol}
-              <span styleName="close">{price}</span>
-            </dt>
-            <dd>
-              <span>≈ {price} cny</span>
-            </dd>
-            <dd>
-              涨幅{' '}
-              <span className={change > 0 ? 'color-up' : 'color-down'}>
-                {change}%
-              </span>
-            </dd>
-            <dd>
-              高 <span>{high}</span>
-            </dd>
-            <dd>
-              低 <span>{low}</span>
-            </dd>
-            <dd>
-              24H量 <span>{vol} ETH</span>
-            </dd>
-          </dl>
-        </div>
         <div id={this.props.containerId} styleName="chart-container" />
       </div>
     );
