@@ -5,7 +5,7 @@ import throttle from 'lodash/throttle';
 
 import Exchange from '../../pages/Exchange/';
 import history from '../../history';
-import { clearession } from '../../actions/globalActions';
+
 import LayoutView from './LayoutView';
 
 @connect(store => {
@@ -53,12 +53,6 @@ export default class extends React.Component {
   }
 
   render() {
-    return (
-      <LayoutView
-        history={history}
-        exchange={Exchange}
-        currentLanguage={this.props.currentLanguage}
-      />
-    );
+    return <LayoutView history={history} exchange={Exchange} />;
   }
 }
