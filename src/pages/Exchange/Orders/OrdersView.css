@@ -1,0 +1,30 @@
+.container {
+  font-size: 12px; }
+  .container dl {
+    margin: .7em 20px; }
+  .container dt div {
+    margin-bottom: 5px;
+    color: #61688a; }
+  .container .text-right {
+    text-align: right; }
+    .container .text-right div:first-child {
+      text-align: left; }
+  .container .color-sell div:first-child {
+    color: #ae4e54; }
+  .container .color-buy div:first-child {
+    color: #589065; }
+  .container .divider {
+    border: 1px solid #1f2943;
+    margin: 0 8px; }
+  .container .header {
+    height: 48px;
+    padding: 0 20px;
+    color: #c7cce6;
+    background-color: #1b1e2e;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    line-height: 48px; }
+    .container .header span {
+      padding-left: 5px;
+      color: #61688a;
+      font-size: 12px; }

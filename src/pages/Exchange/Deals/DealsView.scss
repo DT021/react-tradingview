@@ -1,0 +1,35 @@
+@import '../common.scss';
+
+.container {
+  font-size: 12px;
+
+  dl {
+    margin: .7em 20px;
+  }
+
+  dt div {
+    margin-bottom: 5px;
+    color: #61688a;
+  }
+
+  .text-right {
+    text-align: right;
+
+    div:first-child,
+    div:nth-child(2) {
+      text-align: left;
+    }
+  }
+
+  .color-sell {
+    color: #ae4e54;
+  }
+
+  .color-buy {
+    color: #589065;
+  }
+
+  .header {
+    @extend %win-header;
+  }
+}

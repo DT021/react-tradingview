@@ -1,0 +1,70 @@
+.limit, .market {
+  justify-content: space-evenly; }
+  .limit .available, .market .available {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #1f2943;
+    font-size: 14px; }
+    .limit .available > a, .market .available > a {
+      padding-right: 15px;
+      color: #7a98f7; }
+      .limit .available > a:hover, .market .available > a:hover {
+        color: #aabdfa; }
+    .limit .available > span, .market .available > span {
+      text-transform: uppercase; }
+  .limit dl, .market dl {
+    margin: 0; }
+    .limit dl.price, .market dl.price {
+      min-height: 110px; }
+  .limit dt, .market dt {
+    display: block;
+    margin-bottom: 5px;
+    color: #61688a;
+    font-size: 14px; }
+  .limit dd, .market dd {
+    margin: 0; }
+    .limit dd.holder, .market dd.holder {
+      height: 122px; }
+  .limit label, .market label {
+    position: relative;
+    display: block; }
+    .limit label .unit, .market label .unit {
+      position: absolute;
+      right: 20px;
+      height: 40px;
+      color: #61688a;
+      line-height: 40px;
+      text-transform: uppercase;
+      user-select: none; }
+  .limit .covert, .market .covert {
+    height: 24px;
+    padding-left: 20px;
+    border-radius: 0 0 3px 3px;
+    background-color: rgba(78, 91, 133, 0.4);
+    line-height: 24px;
+    user-select: none; }
+  .limit .range, .market .range {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px; }
+    .limit .range em, .market .range em {
+      text-transform: uppercase;
+      text-decoration: none;
+      user-select: none; }
+  .limit .amount, .market .amount {
+    padding: 10px 0;
+    font-size: 16px;
+    line-height: 36px;
+    text-transform: uppercase; }
+  .limit .button, .market .button {
+    height: 40px;
+    background-color: #4e5b85;
+    font-size: 16px;
+    text-transform: uppercase; }
+    .limit .button span, .market .button span {
+      color: #fff; }
+  .limit input[disabled], .market input[disabled] {
+    cursor: default; }
+    .limit input[disabled]::placeholder, .market input[disabled]::placeholder {
+      color: #61688a; }

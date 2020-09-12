@@ -1,0 +1,15 @@
+ul,
+li {
+  padding: 0;
+  margin: 0; }
+
+li {
+  list-style: none; }
+
+:global .color-up {
+  color: #589065; }
+  :global .color-up::before {
+    content: '+'; }
+
+:global .color-down {
+  color: #ae4e54; }

@@ -1,0 +1,49 @@
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #1b1e2e; }
+  .container .header {
+    padding-top: 10px;
+    background-color: #14182a;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); }
+  .container .row {
+    padding: 0 10px;
+    font-size: 14px; }
+    .container .row .label {
+      font-size: 16px; }
+    .container .row .cny {
+      color: #4e5b85;
+      text-align: center; }
+      .container .row .cny .icon {
+        margin-right: 10px; }
+  .container .symbol-wrap {
+    padding: 0 10px;
+    margin-top: 20px;
+    color: #61688a; }
+    .container .symbol-wrap .text-right {
+      text-align: right; }
+    .container .symbol-wrap .star {
+      margin-right: 5px;
+      color: #61688a; }
+    .container .symbol-wrap .mark {
+      color: #c7cce6; }
+    .container .symbol-wrap .symbol {
+      display: inline-block;
+      padding-bottom: 5px;
+      color: #61688a;
+      cursor: pointer; }
+      .container .symbol-wrap .symbol.selected {
+        border-bottom: 1px solid #7a98f7;
+        color: #7a98f7;
+        cursor: default; }
+        .container .symbol-wrap .symbol.selected .star {
+          color: #7a98f7; }
+        .container .symbol-wrap .symbol.selected .mark {
+          color: #7a98f7; }
+  .container .table-wrap {
+    padding-bottom: 10px;
+    margin: 10px 10px; }
+  .container :global .ant-table-thead tr th {
+    border-bottom: 1px solid #1f2943; }
+  .container :global .ant-table-tbody tr td {
+    border-bottom: 1px solid #1f2943; }

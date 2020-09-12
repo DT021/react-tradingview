@@ -1,0 +1,35 @@
+.container .header {
+  height: 48px;
+  padding: 0 20px;
+  color: #c7cce6;
+  background-color: #1b1e2e;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  line-height: 48px; }
+  .container .header > span {
+    padding-left: 6px;
+    font-size: 16px; }
+
+.container {
+  height: calc(100% - 50px);
+  font-size: 12px; }
+  .container .header dl {
+    display: inline-block;
+    height: 48px;
+    padding-left: 20px;
+    font-style: normal;
+    line-height: 48px;
+    white-space: nowrap;
+    text-transform: uppercase; }
+    .container .header dl > dt {
+      display: inline-block;
+      font-weight: 700;
+      font-size: 20px; }
+    .container .header dl > dd {
+      display: inline-block;
+      margin-left: 10px;
+      font-size: 14px; }
+    .container .header dl .close {
+      margin-left: 10px; }
+  .container .chart-container {
+    height: 100%; }

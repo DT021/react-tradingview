@@ -1,0 +1,109 @@
+.limit, .market {
+  justify-content: space-evenly;
+
+  .available {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #1f2943;
+    font-size: 14px;
+
+    > a {
+      padding-right: 15px;
+      color: #7a98f7;
+
+      &:hover {
+        color: #aabdfa;
+      }
+    }
+
+    > span {
+      text-transform: uppercase;
+    }
+  }
+
+  dl {
+    margin: 0;
+
+    &.price {
+      min-height: 110px;
+    }
+  }
+
+  dt {
+    display: block;
+    margin-bottom: 5px;
+    color: #61688a;
+    font-size: 14px;
+  }
+
+  dd {
+    margin: 0;
+
+    &.holder {
+      height: 122px;
+    }
+  }
+
+  label {
+    position: relative;
+    display: block;
+
+    .unit {
+      position: absolute;
+      right: 20px;
+      height: 40px;
+      color: #61688a;
+      line-height: 40px;
+      text-transform: uppercase;
+      user-select: none;
+    }
+  }
+
+  .covert {
+    height: 24px;
+    padding-left: 20px;
+    border-radius: 0 0 3px 3px;
+    background-color: rgba(78, 91, 133, .4);
+    line-height: 24px;
+    user-select: none;
+  }
+
+  .range {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+
+    em {
+      text-transform: uppercase;
+      text-decoration: none;
+      user-select: none;
+    }
+  }
+
+  .amount {
+    padding: 10px 0;
+    font-size: 16px;
+    line-height: 36px;
+    text-transform: uppercase;
+  }
+
+  .button {
+    height: 40px;
+    background-color: #4e5b85;
+    font-size: 16px;
+    text-transform: uppercase;
+
+    span {
+      color: #fff;
+    }
+  }
+
+  input[disabled] {
+    cursor: default;
+
+    &::placeholder {
+      color: #61688a;
+    }
+  }
+}
