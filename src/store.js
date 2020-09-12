@@ -1,6 +1,6 @@
 import { createStore, applyMiddleware, compose } from 'redux';
 import { connectRouter, routerMiddleware } from 'connected-react-router';
-import { persistStore } from 'redux-persist';
+
 import createSagaMiddleware from 'redux-saga';
 
 import { initLanguage } from './services/language';
@@ -35,6 +35,4 @@ sagaMiddleware.run(rootSaga);
 
 initLanguage(store);
 
-const persistor = persistStore(store);
-
-export { store, persistor };
+export { store };
