@@ -1,0 +1,17 @@
+{
+  "pack": "en",
+  "pack_icon": "uk.svg",
+  "pack_label": "English",
+  "pack_active": true,
+
+  "exchange": {
+    "markets": "Markets",
+    "marked": "Marked",
+    "coin": "Coin",
+    "last_price": "Last Price",
+    "change": "Change",
+    "price": "Price",
+    "amount": "Amount",
+    "sum": "Sum"
+  }
+}
